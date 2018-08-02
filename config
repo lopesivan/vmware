@@ -1,4 +1,4 @@
-ar xf vmmon.tar
+tar xf vmmon.tar
 rm vmmon.tar
 mv -f hostif.c vmmon-only/linux/hostif.c
 tar cf vmmon.tar vmmon-only
